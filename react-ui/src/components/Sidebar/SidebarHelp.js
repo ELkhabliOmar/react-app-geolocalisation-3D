@@ -19,18 +19,18 @@ export function SidebarHelp(props) {
       h="170px"
       w="100%"
     >
-      <IconBox width="35px" h="35px" bg="white" mb="auto">
+      <IconBox width="25px" h="25px" bg="white" mb="auto">
         <QuestionIcon color="teal.300" h="18px" w="18px" />
       </IconBox>
       <Text fontSize="sm" color="white" fontWeight="bold">
-        Need help?
+        About project
       </Text>
       <Text fontSize="xs" color="white" mb="10px">
         Please check our docs
       </Text>
       <Link
         w="100%"
-        href="https://github.com/app-generator/react-purity-dashboard"
+        href="https://quiet-magician-879.notion.site/Deep-Learning-Driven-Urban-Imaging-Satellite-Upscaling-and-3D-Visualization-in-Ben-Guerir-City-5347634317174786978bdc93bf290d2f?pvs=4"
       >
         <Button
           fontSize="10px"
@@ -48,7 +48,7 @@ export function SidebarHelp(props) {
           }}
           color="black"
         >
-          DOCUMENTATION
+          Click Here
         </Button>
       </Link>
     </Flex>

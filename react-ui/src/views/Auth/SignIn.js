@@ -102,7 +102,7 @@ function SignIn() {
             w='100%'
             background='transparent'
             p='48px'
-            mt={{ md: "150px", lg: "80px" }}>
+            mt={{ md: "150px", lg: "110px" }}>
             <Heading color={titleColor} fontSize='32px' mb='10px'>
               Welcome Back
             </Heading>

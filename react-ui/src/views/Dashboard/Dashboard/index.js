@@ -11,6 +11,9 @@ import peopleImage from "assets/img/people-image.png";
 import logoChakra from "assets/svg/logo-white.svg";
 import BarChart from "components/Charts/BarChart";
 import LineChart from "components/Charts/LineChart";
+
+import { FaBuilding } from "react-icons/fa";
+
 // Custom icons
 import {
   CartIcon,
@@ -38,7 +41,7 @@ export default function Dashboard() {
           title={"Today's Moneys"}
           amount={"$53,000"}
           percentage={55}
-          icon={<WalletIcon h={"24px"} w={"24px"} color={iconBoxInside} />}
+          icon={<FaBuilding h={"24px"} w={"24px"} color={iconBoxInside} />}
         />
         <MiniStatistics
           title={"Today's Users"}

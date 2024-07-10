@@ -81,7 +81,8 @@ export default function AuthNavbar(props) {
     >
       <CreativeTimLogo w="32px" h="32px" me="10px" />
       <Text fontSize="sm" mt="3px">
-        {logoText}
+        {/* {logoText} */}
+        Green Energy Park
       </Text>
     </Link>
   );
@@ -101,22 +102,7 @@ export default function AuthNavbar(props) {
           <Text>Dashboard</Text>
         </Button>
       </NavLink>
-      <NavLink to="/admin/profile">
-        <Button
-          fontSize="sm"
-          ms="0px"
-          me="0px"
-          px="0px"
-          me={{ sm: "2px", md: "16px" }}
-          color={navbarIcon}
-          variant="transparent-with-icon"
-          leftIcon={
-            <PersonIcon color={navbarIcon} w="12px" h="12px" me="0px" />
-          }
-        >
-          <Text>Profile</Text>
-        </Button>
-      </NavLink>
+      
       <NavLink to="/auth/signup">
         <Button
           fontSize="sm"
@@ -184,22 +170,7 @@ export default function AuthNavbar(props) {
           />
         </Box>
         {linksAuth}
-        <Link target="_blank" href="https://appseed.us/product/purity-dashboard/api-server-nodejs/react/">
-          <Button
-            bg={bgButton}
-            color={colorButton}
-            fontSize="xs"
-            variant="no-hover"
-            borderRadius="35px"
-            px="30px"
-            display={{
-              sm: "none",
-              lg: "flex",
-            }}
-          >
-            Free Download
-          </Button>
-        </Link>
+
       </Flex>
     </Flex>
   );
