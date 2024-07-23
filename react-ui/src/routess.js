@@ -31,7 +31,7 @@ var dashRoutes = [
     layout: "/admin",
     protected: true,
   },
-  {
+/*   {
     path: "/tables",
     name: "Tables",
     rtlName: "لوحة القيادة",
@@ -39,7 +39,7 @@ var dashRoutes = [
     component: Tables,
     layout: "/admin",
     protected: true,
-  },
+  }, */
   {
     path: "/billing",
     name: "Billing",
@@ -77,40 +77,5 @@ var dashRoutes = [
   }, */
 
 
-  {
-    name: "ACCOUNT PAGES",
-    category: "account",
-    rtlName: "صفحات",
-    state: "pageCollapse",
-    views: [
-      {
-        path: "/profile",
-        name: "Profile",
-        rtlName: "لوحة القيادة",
-        icon: <PersonIcon color="inherit" />,
-        secondaryNavbar: true,
-        component: Profile,
-        layout: "/admin",
-        protected: true,
-      },
-      {
-        path: "/signin",
-        name: "Sign In",
-        rtlName: "لوحة القيادة",
-        icon: <DocumentIcon color="inherit" />,
-        component: SignIn,
-        layout: "/auth",
-      },
-      {
-        path: "/signup",
-        name: "Sign Up",
-        rtlName: "لوحة القيادة",
-        icon: <RocketIcon color="inherit" />,
-        secondaryNavbar: true,
-        component: SignUp,
-        layout: "/auth",
-      },
-    ],
-  },
 ];
 export default dashRoutes;
